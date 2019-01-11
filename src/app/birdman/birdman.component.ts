@@ -14,9 +14,4 @@ export class BirdmanComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  fight() {
-    this.fightService.attack();
-  }
-
 }
