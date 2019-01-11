@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    color: white;
+}
+
+html { 
+    background: url("./assets/gamBG_entryway.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .character_name{
+    margin-bottom: 0px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.info { 
+    height: 400px; 
+    position: fixed;
+    margin-left: 500px;
+    bottom:0%;
+    width:100%; 
+    opacity: 1;
+}
+
+.inline {
+    display: inline-block;
+}
