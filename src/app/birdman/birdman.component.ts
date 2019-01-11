@@ -17,7 +17,6 @@ export class BirdmanComponent implements OnInit {
 
   fight() {
     this.fightService.attack();
-    console.log('health: ');
   }
 
 }
