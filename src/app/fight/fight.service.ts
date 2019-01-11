@@ -7,7 +7,7 @@ export class FightService {
 
   health = 10;
   isWinner = false;
-  
+
   constructor() { }
 
   attack() {
